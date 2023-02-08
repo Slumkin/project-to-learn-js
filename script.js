@@ -1,23 +1,21 @@
-// alert('hello');
+'use strict';
 
-// const result = confirm("Are you pidr?");
-// console.log(result);
 
-// const answer = prompt("Are you 18?", "");
-// console.log(answer);
+const numberOfFilms = +prompt('How many films did you watch?', "");
+const personalMovieDB = {
+count: numberOfFilms,
+movies: {},
+actors:{},
+genres: [],
+private:false
+ };
+ const a = prompt('What was the last movie you were watching?', ""),
+       b = prompt('How do you rate it', ""),
+       c = prompt('What was the last movie you were watching?', ""),
+       d = prompt('How do you rate it?', "");
 
-// const answers = [];
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-// answers[0] = prompt("Whats your name?", '');
-// answers[1] = prompt("Whats your surname?", "");
-// answers[2] = prompt("How old are you?", "");
+console.log(personalMovieDB);
 
-// document.write(answers);
-
-// const category = 'toys';
-// console.log(`https://someurl.com/${category}/5`);
-
-// const user = "Kamila";
-// alert(`Hello, ${user}`);
-
- 
